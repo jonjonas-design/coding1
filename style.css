@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+html{
+  font-size: 100%;
+}
+body{
+  font-family: "Helvetica Bold", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+  line-height: 1.7;
+  color: #333;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+img {
+  max-width: 100%;
+}
+
+.logo{
+  height: 50%;
+  margin: 20px;
+}
+.menu{
+  height: 80px;
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.navmenu{
+  display: flex;
+  list-style: none;
+  line-height: 80px;
+}
+.menu-item{
+  margin-right: 20px;
+}
+
+#top{
+  background-image: url(image/austin-distel-wawEfYdpkag-unsplash.png);
+  background-size: cover;
+  height: 551px;
+}
+.title{
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  display: block;
+  padding-top: 254px;
+}
+.paragraph{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  display: block;
+  line-height: 28px;
+}
+
+.container{
+  text-align: center;
+  margin: 0 auto;
+  width: 70%;
+}
+.blog{
+  display: flex;
+  justify-content: space-between;
+}
+.title2{
+  font-size: 32px;
+  font-weight: bold;
+  margin: 60px 0 50px 0;
+}
+.blog-item{
+  width: 310px;
+  position: relative;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+  margin-bottom: 46px;
+}
+.blogp{
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 27px;
+  text-align: left;
+  margin: 20px 20px 100px 20px;
+  display: block;
+}
+time{
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  padding-top: 36px;
+}
+.more{
+  height: 52px;
+  width: 310px;
+  line-height: 52px;
+  margin: 46px 0 88px 0;
+  padding: 17px 110px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, .16);
+  border-radius: 5px;
+  font-weight: bold;
+}
+#mychallenge{
+  margin-bottom: 88px;
+}
+#justcontinue{
+  background-image: url(image/tim-bogdanov-4uojMEdcwI8-unsplash.png);
+  background-size: cover;
+  height: 455px;
+}
+.title3{
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  padding-top: 61px;
+  margin-bottom: 46px;
+}
+.contact{
+  background-color: #83032a;
+  height: 210px;
+  width: 54px;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 16.5px 36px;
+  margin: 50px 0 44px 0;
+}
+.jcp{
+  margin-bottom: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  line-height: 28px;
+}
+
+.footerp{
+  font-size: 14px;
+  color: #fff;
+  line-height: 80px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #333;
+  height: 80px;
+  display: block;
+  margin: 0 auto;
+  border: 0px none;
+}
